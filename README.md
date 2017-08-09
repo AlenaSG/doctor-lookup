@@ -1,20 +1,11 @@
-Weather-App-Node.
-
-##Instalation Instrustions.
-
-Create a file in the root folder .env with this content: exports.apiKey = "7b06a53a30e9798b45bc59fffe66416f"; Create an account at https://openweathermap.org/ to get your own API key.
-
-Google Maps APIs from Google Doc
-
-https://developers.google.com/maps/documentation/javascript/adding-a-google-map
-##Doctors Office, August 9, 2017
+## Doctors Office, August 9, 2017
 
 By Alena Golovina
 
-###Description
+### Description
 Doctors Office is a web app that helps you find a doctor if you have a medical issue. The user can input their condition in a form, submit the request with a click on a button and receive a list of doctors working with this issue.
 
-###Setup/Installation Requirements
+### Setup/Installation Requirements
 
 Clone the repository to your computer
 Navigate into the project folder
@@ -28,16 +19,16 @@ Run the following commands:
 $ gulp build
 $ gulp serve
 
-###Code Specs
+### Code Specs
 
 |Behavior-Plain English| Input|	Output
 |User inputs their issue into the field and submits with a button.|medical issue -"headache", submit.|A list of doctors appears under the form.
 
-###Support and contact details
+### Support and contact details
 
 If you have any questions please contact us.
 
-###Technologies Used
+### Technologies Used
 
 JavaScript
 Node.js
@@ -48,4 +39,6 @@ Bootstrap
 SCSS
 HTML
 
+### License
+This software is licensed under MIT license.
 Copyright (c) 2017 Alena Golovina
