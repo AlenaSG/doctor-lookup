@@ -1,21 +1,27 @@
 var DoctorLookup = require('./../js/doctor-lookup.js').doctorModule;
 
 
-var displayKelvinTemp = function(city, tempData) {
-  $('#showKelvinTemp').text("Kelvin Temperature in  " + city + " is " + tempData + "  degrees.");
+var displayDoctors = function(data) {
+  // if (docData.length<1){
+  //   $('#showDoctors').text("no doctors found");
+  // } else {
+    $('#showDoctors').empty();
+    data.forEach(function(doctor){
+    $('#showDoctors').append('<li>' + "call " + doctor.profile.last_name + '</li>');
+
+  });
 };
 
 
-
-
 $(document).ready(function() {
-  var currentDoctorObject = new DoctorLookup();
 
 
-  $('#kelvin-temp').click(function() {
-    var city = $('#location').val();
-    $('#location').val("");
-    currentWeatherObject.getTemp(city, displayKelvinTemp);
+  $('#find-doctor').click(function() {
+    var medicalIssue = $('#medicalIssue').val();
+    //$('#medicalIssue').val("");
+    var docObject = new DoctorLookup();
+
+    docObject.getDoctors(medicalIssue);
   });
 
     });
