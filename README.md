@@ -1,10 +1,10 @@
-exports.apiKey = "7b06a53a30e9798b45bc59fffe66416f"
-## Doctors Office, August 9, 2017
+## Doctor Lookup 
 
-By Alena Golovina
+_By Alena Golovina_
+_August 9, 2017_
 
 ### Description
-Doctors Office is a web app that helps you find a doctor if you have a medical issue. The user can input their condition in a form, submit the request with a click on a button and receive a list of doctors working with this issue.
+Doctor Lookup is a web app that helps you find a doctor if you have a medical issue. The user can input their condition in a form, submit the request with a click on a button and receive a list of doctors working with this issue.
 
 ### Setup/Installation Requirements
 
@@ -23,6 +23,7 @@ Doctors Office is a web app that helps you find a doctor if you have a medical i
 ### Code Specs
 
 |Behavior-Plain English| Input|	Output|
+|---|---|---|
 |User inputs their issue into the field and submits with a button.|medical issue -"headache", submit.|A list of doctors appears under the form.|
 
 ### Support and contact details
@@ -31,14 +32,15 @@ If you have any questions please contact us.
 
 ### Technologies Used
 
-JavaScript
-Node.js
-Bower
-Gulp
-JQuery
-Bootstrap
-SCSS
-HTML
+* JavaScript
+* Node.js
+* Gulp
+* Bower
+* JQuery
+* HTML
+* Bootstrap
+* SCSS
+
 
 ### License
 This software is licensed under MIT license.
