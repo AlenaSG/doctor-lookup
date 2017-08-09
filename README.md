@@ -1,3 +1,4 @@
+exports.apiKey = "7b06a53a30e9798b45bc59fffe66416f"
 ## Doctors Office, August 9, 2017
 
 By Alena Golovina
