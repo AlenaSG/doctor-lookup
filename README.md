@@ -7,17 +7,17 @@ Doctors Office is a web app that helps you find a doctor if you have a medical i
 
 ### Setup/Installation Requirements
 
-Clone the repository to your computer
-Navigate into the project folder
-Run the following commands:
-$ npm install
-$ bower install
-Go to https://developer.betterdoctor.com/ and sign up to get a free API key
-At the top level of the project directory, create a file called .env to store your API key
-Inside the .env file, enter: exports.apiKey = "Your API key"; (Put your API key inside the quotes).
-Run the following commands:
-$ gulp build
-$ gulp serve
+* Clone the repository to your computer
+* Navigate into the project folder
+* Run the following commands:
+* $ npm install
+* $ bower install
+* Go to https://developer.betterdoctor.com/ and sign up to get a free API key
+* At the top level of the project directory, create a file called .env to store your API key
+* Inside the .env file, enter: exports.apiKey = "Your API key"; (Put your API key inside the quotes).
+* Run the following commands:
+* $ gulp build
+* $ gulp serve
 
 ### Code Specs
 
