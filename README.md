@@ -22,8 +22,8 @@ Doctors Office is a web app that helps you find a doctor if you have a medical i
 
 ### Code Specs
 
-|Behavior-Plain English| Input|	Output
-|User inputs their issue into the field and submits with a button.|medical issue -"headache", submit.|A list of doctors appears under the form.
+|Behavior-Plain English| Input|	Output|
+|User inputs their issue into the field and submits with a button.|medical issue -"headache", submit.|A list of doctors appears under the form.|
 
 ### Support and contact details
 

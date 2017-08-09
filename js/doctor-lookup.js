@@ -18,11 +18,11 @@ DoctorLookup.prototype.getDoctors = function(medicalIssue, doctor) {
       console.log(result.data[0]);
       console.log(result.data.length);
       console.log(result.meta);
-      var doctorNames = doctor.displayDoctors(result.data.length, result.data);
+      var doctorContacts = doctor.displayDoctors(result.data.length, result.data);
       $('#showDoctors').empty();
-      doctorNames.forEach(function(name) {
-        $('#showDoctors').append('<li>' + name.profile.first_name + ' ' + name.profile.last_name + ", " + name.profile.title + '</li>');
-        console.log(name.profile.first_name + ' ' + name.profile.last_name);
+      doctorContacts.forEach(function(contact) {
+        $('#showDoctors').append('<li>' + contact.profile.first_name + ' ' + contact.profile.last_name + ", " + contact.profile.title + '</li>');
+        console.log(contact.profile.first_name + ' ' + contact.profile.last_name);
       });
     })
    .fail(function(error){
